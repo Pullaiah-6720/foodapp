@@ -1,0 +1,12 @@
+[
+  "restaurant_type",
+  "description",
+  "service_radius",
+  "fssai_type",
+  "fssai_expiry",
+  "trade_license_number",
+  "trade_license_expiry",
+  "food_category",
+  "restaurant_logo",
+  "restaurant_cover"
+]

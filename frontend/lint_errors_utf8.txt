@@ -1,0 +1,23 @@
+
+> tmp-frontend@0.0.0 lint
+> eslint .
+
+
+D:\Nutrikart\frontend\src\App.jsx
+   1:8   error  'React' is defined but never used                       no-unused-vars
+  12:27  error  'children' is missing in props validation               react/prop-types
+  12:37  error  'allowedRoles' is missing in props validation           react/prop-types
+  21:39  error  'allowedRoles.includes' is missing in props validation  react/prop-types
+
+D:\Nutrikart\frontend\src\context\AuthContext.jsx
+   1:8   error    'React' is defined but never used                                                                                               no-unused-vars
+   6:32  error    'children' is missing in props validation                                                                                       react/prop-types
+  14:40  error    'error' is assigned a value but never used                                                                                      no-unused-vars
+  70:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\Nutrikart\frontend\src\pages\Auth.jsx
+  1:8   error  'React' is defined but never used         no-unused-vars
+  6:32  error  'isLogin' is missing in props validation  react/prop-types
+
+✖ 10 problems (9 errors, 1 warning)
+
